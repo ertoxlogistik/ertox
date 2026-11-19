@@ -2,8 +2,7 @@ import { Link } from '@tanstack/react-router';
 import { useState } from 'react';
 import { ArrowUpRight, Menu, X, Phone, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoMark from '@/assets/logo-mark.png.asset.json';
-import logoLight from '@/assets/logo-mark-light.png.asset.json';
+import ertoxLogo from '@/assets/ertox-logo.png';
 
 export const navigation = [['Start', 'start'], ['Leistungen', 'leistungen'], ['Transport', 'transport'], ['Logistik', 'logistik'], ['Ablauf', 'ablauf'], ['Unternehmen', 'unternehmen'], ['Kontakt', 'kontakt']] as const;
 export function Header() {
